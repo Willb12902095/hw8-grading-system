@@ -1,0 +1,483 @@
+================================================================================
+STUDENT HOMEWORK GRADING LOG
+Generated: 2026-05-02 14:38:47
+Rubric: CODE-ONLY (max score = 110; percentage used for grade)
+================================================================================
+
+--------------------------------------------------------------------------------
+STUDENT: cathywang.20061017
+Folder: _extracted_submissions/cathywang.20061017
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - game_revised.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ game_revised.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 19/25 points
+    • Total lines of code: 369
+    • Number of files: 1
+    • Number of functions: 5
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 35/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✓ Entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 369
+    • Number of files: 1
+    • Number of functions: 5
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 103/110 (93.6%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: chaoen.wang
+Folder: _extracted_submissions/chaoen.wang
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - final_game_15.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ final_game_15.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 14/25 points
+    • Total lines of code: 445
+    • Number of files: 1
+    • Number of functions: 5
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 31/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✗ No entry point detected
+
+  [MEDIUM] Code Quality: 11/15 points
+    • Total lines of code: 445
+    • Number of files: 1
+    • Number of functions: 5
+    • ✓ Good modularity (multiple functions)
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 91/110 (82.7%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: cwkao85
+Folder: _extracted_submissions/cwkao85
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - cwkao85#_σæéσ╗║Φ│ó_267744_8989534_20260205_2_upgrade.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ cwkao85#_σæéσ╗║Φ│ó_267744_8989534_20260205_2_upgrade.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 19/25 points
+    • Total lines of code: 197
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 35/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✓ Entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 197
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 103/110 (93.6%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: gitis.richard
+Folder: _extracted_submissions/gitis.richard
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - gameV2.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ gameV2.py: exited normally
+
+📊 GRADING DETAILS:
+
+  [LOW] Code Submission: 2/25 points
+    • Total lines of code: 1
+    • Number of files: 1
+    • Number of functions: 0
+    • ✗ No functions detected
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [LOW] Code Correctness: 0/35 points
+    • ✓ No obvious syntax issues
+    • ✗ No game loop detected
+    • ✗ No pygame usage detected
+    • ✗ No rendering/update logic detected
+    • ✗ No entry point detected
+
+  [LOW] Code Quality: 0/15 points
+    • Total lines of code: 1
+    • Number of files: 1
+    • Number of functions: 0
+    • ✗ No functions detected
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 37/110 (33.6%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: jovaes18
+Folder: _extracted_submissions/jovaes18
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - jovaes18#_σæéµ¢╕Φ│ó_209359_9006147_gmae-1.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ jovaes18#_σæéµ¢╕Φ│ó_209359_9006147_gmae-1.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 19/25 points
+    • Total lines of code: 290
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 35/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✓ Entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 290
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 103/110 (93.6%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: justincyc2025
+Folder: _extracted_submissions/justincyc2025
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - justincyc2025#_Θé▒σÑòσÿë_308940_8991558_pygame_p10.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: FAIL
+    • ✗ justincyc2025#_Θé▒σÑòσÿë_308940_8991558_pygame_p10.py: crashed or exited with code 1; Traceback (most recent call last): |   File "/Users/will/Desktop/special research/HW8_2_pipeline/_extracted_submissions/justincyc2025/justincyc2025#_Θé▒σÑòσÿë_308940_8991558_pygame_p10.py", line 28, in <module>
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 19/25 points
+    • Total lines of code: 257
+    • Number of files: 1
+    • Number of functions: 8
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 31/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✗ No entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 257
+    • Number of files: 1
+    • Number of functions: 8
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [LOW] Runtime Behavior: 0/10 points
+    • ✗ Program crashes or fails to run
+
+========================================
+TOTAL SCORE: 89/110 (80.9%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: kevinlee920511
+Folder: _extracted_submissions/kevinlee920511
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - kevinlee920511#_µ¥ÄµÑ╖µûç_308942_9000446_p02_game.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: FAIL
+    • ✗ kevinlee920511#_µ¥ÄµÑ╖µûç_308942_9000446_p02_game.py: crashed or exited with code 1; Traceback (most recent call last): |   File "/Users/will/Desktop/special research/HW8_2_pipeline/_extracted_submissions/kevinlee920511/kevinlee920511#_µ¥ÄµÑ╖µûç_308942_9000446_p02_game.py", line 379, in <module>
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 19/25 points
+    • Total lines of code: 379
+    • Number of files: 1
+    • Number of functions: 20
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 35/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✓ Entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 379
+    • Number of files: 1
+    • Number of functions: 20
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [LOW] Runtime Behavior: 0/10 points
+    • ✗ Program crashes or fails to run
+
+========================================
+TOTAL SCORE: 93/110 (84.5%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: livy0104
+Folder: _extracted_submissions/livy0104
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - dodge_game.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ dodge_game.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [HIGH] Code Submission: 21/25 points
+    • Total lines of code: 260
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Docstrings present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 31/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✗ No entry point detected
+
+  [HIGH] Code Quality: 14/15 points
+    • Total lines of code: 260
+    • Number of files: 1
+    • Number of functions: 9
+    • ✓ Good modularity (multiple functions)
+    • ✓ Classes detected
+    • ✓ Comments present
+    • ✓ Docstrings present
+    • ✓ Proper naming conventions
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 101/110 (91.8%)
+========================================
+
+--------------------------------------------------------------------------------
+STUDENT: uniquesea7
+Folder: _extracted_submissions/uniquesea7
+--------------------------------------------------------------------------------
+
+📁 FILES SUBMITTED:
+  Code Files:
+    - uniquesea7#_ΘÖ│σåáΘ£û_308937_8991657_01-4.py
+  Chat History: None
+
+🧪 RUNTIME SMOKE TEST:
+  Status: PASS
+    • ✓ uniquesea7#_ΘÖ│σåáΘ£û_308937_8991657_01-4.py: launched and kept running for 5s (likely pygame window opened)
+
+📊 GRADING DETAILS:
+
+  [MEDIUM] Code Submission: 16/25 points
+    • Total lines of code: 289
+    • Number of files: 1
+    • Number of functions: 3
+    • ✓ Excellent modularity (multiple functions)
+    • ✓ Comments present
+    • ✓ Docstrings present
+    • ✓ Substantial code volume
+
+  [HIGH] Completeness: 25/25 points
+    • ✓ Code files: 1
+    • ✓ Submission complete (code-only mode)
+
+  [HIGH] Code Correctness: 31/35 points
+    • ✓ No obvious syntax issues
+    • ✓ Game loop detected
+    • ✓ Pygame usage detected
+    • ✓ Rendering/update logic detected
+    • ✗ No entry point detected
+
+  [HIGH] Code Quality: 13/15 points
+    • Total lines of code: 289
+    • Number of files: 1
+    • Number of functions: 3
+    • ✓ Good modularity (multiple functions)
+    • ✓ Comments present
+    • ✓ Docstrings present
+    • ✓ Proper naming conventions
+    • ✓ Error handling present
+
+  [HIGH] Runtime Behavior: 10/10 points
+    • ✓ Program runs without crashing
+
+========================================
+TOTAL SCORE: 95/110 (86.4%)
+========================================
+
+================================================================================
+SUMMARY
+================================================================================
+Total Students: 9
+Average Score: 82.3%
+High Performance (≥80%): 8
+Medium Performance (60-79%): 0
+Low Performance (<60%): 1
