@@ -1,0 +1,65 @@
+Homework Grading System Report
+
+1. Overview
+This grading system is designed to automatically evaluate student programming assignments submitted as a ZIP file. It performs submission extraction, organization, static code analysis, optional runtime testing (smoke test), rubric-based scoring, and output generation. The objective is to provide fair, consistent, and scalable grading while still allowing manual review when necessary.
+
+2. Workflow of the Grading Script
+
+2.1 Input ZIP File
+The grading process begins with a ZIP file containing all student submissions. The script is executed using:
+python homework_grader.py HW8_final.zip
+
+2.2 Extraction of Submissions
+The ZIP file is extracted into a temporary directory. All files are preserved in their original submitted form, with only minimal cleanup applied to ensure compatibility with the grading script.
+
+2.3 Detection of Student Submissions
+Instead of relying on folder structure, the system groups files by student name using the filename prefix before the “#” symbol. For example:
+justincyc2025#_game.py → student: justincyc2025
+This approach ensures robustness even when students submit files with inconsistent naming or without proper folder organization.
+
+2.4 File Type Detection
+For each student, the system identifies code files (e.g., .py, .java, .cpp) and chat history files (if present). In this assignment, no chat history files were found, so the system automatically switched to the code-only rubric.
+
+2.5 Static Code Analysis
+The system analyzes code without executing it. The analysis includes checking code size, function usage, class usage, comments, documentation, naming conventions, and key program structures such as game loops, pygame usage, rendering logic, and entry points. This ensures safe evaluation without executing untrusted code.
+
+2.6 Runtime Smoke Test
+An optional runtime test is included to verify whether programs can run without crashing. When enabled, each Python file is executed for a short period (5 seconds). If the program runs successfully, it is marked as PASS. If some files run and others fail, it is marked as PARTIAL. If the program crashes, it is marked as FAIL. This test does not evaluate gameplay quality, only execution stability.
+
+2.7 Grading Rubric
+Since no chat history was submitted, the code-only rubric is used. The criteria and maximum scores are:
+Code Submission (25), Completeness (25), Code Correctness (35), Code Quality (15), Runtime Behavior (10).
+Total maximum score: 110 points.
+
+2.8 Score Calculation
+Each student receives scores for each criterion, a total score, and a percentage. Final grades are assigned as:
+A (≥90%), B (80–89%), C (70–79%), D (60–69%), F (<60%).
+
+2.9 Output Generation
+The system generates two output files:
+- Excel file (HW8_final_grades.xlsx) containing scores, grades, and summary statistics
+- Log file (HW8_final_grading_log.txt) containing detailed grading breakdowns for each student
+
+3. Results Summary
+A total of 9 students were evaluated. The average score was 88.1%. Eight students achieved high performance (≥80%), one student achieved medium performance (60–79%), and no students scored below 60%.
+
+4. Observations
+
+4.1 Strengths
+Most students successfully implemented game loops, pygame-based rendering, and functional gameplay logic. Several submissions demonstrated good modularity, clear structure, and appropriate use of classes and comments.
+
+4.2 Common Issues
+Some students did not include a clear program entry point (e.g., if __name__ == "__main__"). Others had limited modularity, using only one function, which reduced code quality scores. Additionally, one submission failed during runtime due to missing external resources (e.g., image files), indicating incomplete submission.
+
+5. Notes on Grader Implementation
+The graders used in 8-1 and 8-2 are slightly different due to the variability and complexity of student submissions. Students submitted files in inconsistent formats, including mixed structures, missing folders, and additional assets.
+
+To handle this, minor adjustments were made to improve file detection and robustness. The grader was modified to better interpret submission structures and locate relevant code files. Additionally, environment handling was improved so the script can correctly read runtime configurations (e.g., RUN_SMOKE_TEST) and execute consistently.
+
+These changes do not affect the grading rubric or scoring criteria, but improve reliability and fairness when handling real-world submissions.
+
+6. Limitations
+The runtime test does not evaluate gameplay quality. Static analysis cannot fully guarantee correctness. Programs that depend on external files may fail during execution if those files are not submitted. Therefore, manual review may still be required in some cases.
+
+7. Conclusion
+This grading system provides an efficient and scalable approach to evaluating programming assignments. By combining automated analysis, structured scoring, and runtime validation, it ensures consistent and practical evaluation. The runtime smoke test further improves reliability by detecting crashes and missing resources. Overall, the system balances automation, safety, and grading accuracy effectively.
