@@ -38,6 +38,11 @@ Code is analyzed without execution, checking:
 
 3.4 Runtime Smoke Test
 Optional 5-second execution per file:
+
+Execution is enabled using the environment variable:
+RUN_SMOKE_TEST=1 python homework_grader.py [.zip]
+
+This command activates the runtime smoke test ("smoking gun") to verify whether student programs can launch without crashing.
 PASS – runs successfully  
 PARTIAL – mixed results  
 FAIL – crashes  
