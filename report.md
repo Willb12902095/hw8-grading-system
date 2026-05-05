@@ -43,12 +43,69 @@ FAIL – crashes
 This checks execution stability only.
 
 ## 4. Grading Rubric (Code-Only)
-- Code Submission (25)
-- Completeness (25)
-- Code Correctness (35)
-- Code Quality (15)
-- Runtime Behavior (10)
-Total: 110 points
+
+The grading system applies a code-only rubric when no chat history is used. Each criterion is evaluated using rule-based analysis implemented in the script.
+
+### 4.1 Code Submission (25 points)
+Evaluates code structure and implementation effort:
+- Number of files submitted
+- Total lines of code
+- Presence of functions (regex detection of `def`)
+- Presence of classes (`class` keyword)
+- Presence of comments and docstrings
+
+Scoring logic:
+- Higher scores for modular code (multiple functions/classes)
+- Lower scores for minimal or single-function scripts
+
+### 4.2 Completeness (25 points)
+Checks whether required components are present:
+- At least one valid code file detected → full score
+- No code files → zero score
+
+This criterion ensures the submission is not empty or invalid.
+
+### 4.3 Code Correctness (35 points)
+Evaluates logical structure using static pattern detection:
+- Game loop detection (`while` loop)
+- Pygame usage (`import pygame`)
+- Rendering/update logic (`pygame.display`, `draw`, or `update`)
+- Entry point detection (`if __name__ == "__main__"` or `main()`)
+
+Scoring logic:
+- Points added for each detected feature
+- Points deducted if key components (e.g., game loop, entry point) are missing
+- Syntax consistency checked via bracket/parentheses matching
+
+### 4.4 Code Quality (15 points)
+Evaluates readability and maintainability:
+- Function modularity (number of functions)
+- Use of classes
+- Presence of comments and docstrings
+- Naming conventions (variable/function patterns)
+- Error handling (`try/except` blocks)
+
+Higher scores are given to well-structured and readable code.
+
+### 4.5 Runtime Behavior (10 points)
+Evaluated using an optional runtime smoke test:
+- Each Python file is executed for up to 5 seconds
+- PASS → program runs without crashing
+- PARTIAL → some files fail
+- FAIL → program crashes
+
+Scoring:
+- PASS → 10 points
+- PARTIAL → 5 points
+- FAIL → 0 points
+
+Note: This test checks execution stability only, not gameplay correctness.
+
+### Total Score
+Total = 110 points
+
+Scores are converted into percentages and mapped to letter grades:
+A (≥90), B (80–89), C (70–79), D (60–69), F (<60)
 
 ## 5. Scoring
 Grades are assigned by percentage:
